@@ -14,8 +14,8 @@
 	</prerequisites>
 
 	<properties>
-		<vaadin.version>14.6.8</vaadin.version>
-		<vaadin.plugin.version>14.0.0</vaadin.plugin.version>
+		<vaadin.version>23.2.6</vaadin.version>
+		<vaadin.plugin.version>23.2.6</vaadin.plugin.version>
 		<jetty.plugin.version>9.3.9.v20160517</jetty.plugin.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>1.8</maven.compiler.source>
@@ -50,22 +50,34 @@
 			<version>3.0.1</version>
 			<scope>provided</scope>
 		</dependency>
-		<dependency>
-			<groupId>com.vaadin</groupId>
-			<artifactId>vaadin-server</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.vaadin</groupId>
-			<artifactId>vaadin-push</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.vaadin</groupId>
-			<artifactId>vaadin-client-compiled</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.vaadin</groupId>
-			<artifactId>vaadin-themes</artifactId>
-		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.vaadin/vaadin-server -->
+<dependency>
+    <groupId>com.vaadin</groupId>
+    <artifactId>vaadin-server</artifactId>
+    <version>8.17.0</version>
+</dependency>
+
+	<!-- https://mvnrepository.com/artifact/com.vaadin/vaadin-push -->
+<dependency>
+    <groupId>com.vaadin</groupId>
+    <artifactId>vaadin-push</artifactId>
+    <version>8.17.0</version>
+    <scope>provided</scope>
+</dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.vaadin/vaadin-client-compiled -->
+<dependency>
+    <groupId>com.vaadin</groupId>
+    <artifactId>vaadin-client-compiled</artifactId>
+    <version>8.17.0</version>
+</dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.vaadin/vaadin-themes -->
+<dependency>
+    <groupId>com.vaadin</groupId>
+    <artifactId>vaadin-themes</artifactId>
+    <version>8.17.0</version>
+</dependency>
 	</dependencies>
 
 	<build>
@@ -87,11 +99,7 @@
 				<executions>
 					<execution>
 						<goals>
-							<goal>update-theme</goal>
-							<goal>update-widgetset</goal>
-							<goal>compile</goal>
 							<!-- Comment out compile-theme goal to use on-the-fly theme compilation -->
-							<goal>compile-theme</goal>
 						</goals>
 					</execution>
 				</executions>
