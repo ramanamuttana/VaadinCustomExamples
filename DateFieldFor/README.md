@@ -53,4 +53,6 @@ If Vaadin pre-releases are not enabled by default, use the Maven parameter
 
 Output
 ---------------------------------------------
-![Alt text](https://github.com/ramanamuttana/VaadinCustomExamples/blob/master/DateFieldFor/Timestamp.png?raw=true)
+1) ![Alt text](https://github.com/ramanamuttana/VaadinCustomExamples/blob/master/DateFieldFor/Timestamp.png?raw=true)
+
+2) ![Alt text](https://github.com/ramanamuttana/VaadinCustomExamples/blob/master/DateFieldFor/timestamp2.png?raw=true)
