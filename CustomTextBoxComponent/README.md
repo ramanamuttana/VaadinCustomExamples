@@ -53,9 +53,10 @@ If Vaadin pre-releases are not enabled by default, use the Maven parameter
 ///////////////////////////////////......................................//////////////////////////////////
 CustomTextField 
 
- 1)Creating custom TextField.
+  1)Creating custom TextField.
 
- 2) Call the CustomTextField into UI
+  2) Call the CustomTextField into UI
+     
 
      ![alt text](https://github.com/ramanamuttana/VaadinCustomExamples/blob/master/CustomTextBoxComponent/CustomTextBox.png?raw=true)
 
