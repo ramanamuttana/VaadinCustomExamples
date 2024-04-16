@@ -53,6 +53,7 @@ If Vaadin pre-releases are not enabled by default, use the Maven parameter
 ///////////////////////////////////......................................//////////////////////////////////
 CustomTextField 
 
-1)Creating custom TextField.
-2) Call the CustomTextField into UI
+ 1)Creating custom TextField.
+
+ 2) Call the CustomTextField into UI
 
