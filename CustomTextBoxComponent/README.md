@@ -57,5 +57,5 @@ CustomTextField
 
  2) Call the CustomTextField into UI
 
-     ![alt text](https://github.com/ramanamuttana/traefik/blob/main/Screenshot%202024-04-03%20at%2018.49.12.png?raw=true)
+     ![alt text](https://github.com/ramanamuttana/VaadinCustomExamples/blob/master/CustomTextBoxComponent/CustomTextBox.png?raw=true)
 
